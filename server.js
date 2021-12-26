@@ -1,5 +1,5 @@
-import app from './app.js'
-import history from 'connect-history-api-fallback'
+const app = require('./app.js')
+const history = require('connect-history-api-fallback')
 app.use(history());
 
 var port = process.env.PORT || 5000

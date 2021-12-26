@@ -1,6 +1,6 @@
-import express from "express";
-import Router from "./routes/routes.js";
-import cors from 'cors'
+const express = require("express")
+const Router = require("./routes/routes.js")
+const cors = require('cors')
 const app = express() 
 
 app.use(cors());
@@ -10,4 +10,4 @@ app.use('/images', express.static('images'));
 app.use(Router);
 
 
-export default app;
+module.exports =  app;
