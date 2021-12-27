@@ -21,6 +21,7 @@
     "imagemagick": "^0.1.3",
     "jimp": "^0.16.1",
     "mysql2": "^2.3.3",
+    "path": "^0.12.7",
     "rembg-nodejs": "^1.0.8",
     "rgb-hex": "^4.0.0",
     "sequelize": "^7.0.0-alpha.2"
