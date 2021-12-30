@@ -25,6 +25,9 @@
     "rembg-nodejs": "^1.0.9",
     "rgb-hex": "^4.0.0",
     "sequelize": "^7.0.0-alpha.2",
-    "sharp": "^0.29.3"
+    "sharp": "^0.29.3",
+    "rembg-nodejs": "^1.0.8",
+    "rgb-hex": "^4.0.0",
+    "sequelize": "^7.0.0-alpha.2"
   }
 }
