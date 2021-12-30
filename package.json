@@ -1,0 +1,30 @@
+{
+  "name": "imagick",
+  "version": "1.0.0",
+  "description": "manipulations images",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [
+    "imagick"
+  ],
+  "author": "husein fachruddin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "child_process": "^1.0.2",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "imagemagick": "^0.1.3",
+    "jimp": "^0.16.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "rembg-nodejs": "^1.0.9",
+    "rgb-hex": "^4.0.0",
+    "sequelize": "^7.0.0-alpha.2",
+    "sharp": "^0.29.3"
+  }
+}
